@@ -1,5 +1,5 @@
 import tensorflow as tf
-from modules.anchor import encode_tf
+from .anchor import encode_tf
 
 
 def _parse_tfrecord(img_dim, using_bin, using_flip, using_distort,
